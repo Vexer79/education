@@ -1,18 +1,18 @@
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring
 
 const car = {
-    name: "Porsche",
+    model: "Porsche",
     color: "black",
 }
 
 // Object destructing
 
-const { name, color } = car;
-console.log(name);
+const { model, color } = car;
+console.log(model);
 console.log(color);
 
-// Assinging to new variable names
+// Assinging to new variable models
 
-const {name: carName, color: carColor} = car;
-console.log(carName);
+const {model: carModel, color: carColor} = car;
+console.log(carModel);
 console.log(carColor);
