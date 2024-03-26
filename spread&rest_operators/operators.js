@@ -3,5 +3,10 @@ const person = {
     age: "17",
 };
 
-//Spreat operator
-const secondPerson = {...person};
+//Spread operator (for copy array or object)
+const secondPerson = { ...person };
+
+//Rest operator (merge single elements to array)
+const toArray = (...args) => {
+    return args;
+};
