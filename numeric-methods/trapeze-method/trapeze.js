@@ -11,6 +11,7 @@
             resultTable[i] = { xI: xI, yI: func(xI) };
             xI += h;
         }
+        resultTable[10] = { xI: xI, yI: func(xI) };
         console.log(resultTable);
         return result * h;
     };
