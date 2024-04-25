@@ -6,6 +6,6 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install request
 pip install requests
 ```
 
-## Running script
+## Run script
 
 You have to create folder "catalog" and change path in dirname variable to path of catalog folder.
