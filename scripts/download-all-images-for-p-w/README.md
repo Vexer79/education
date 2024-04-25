@@ -8,4 +8,4 @@ pip install requests
 
 ## Run script
 
-You have to create folder "catalog" and change path in dirname variable to path of catalog folder.
+You need to create folder "catalog" and change path in dirname variable to path of catalog folder.
